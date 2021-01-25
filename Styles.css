@@ -71,7 +71,11 @@ input[type="text"],[type="email"] {
 }
 
 input[type="radio"], [type="checkbox"] {
-    margin-right: 5px;
+    position: relative;
+    top: 3px;
+    margin-right: 8px;
+    width: 18px;
+    height: 18px;
 }
 
 .underline { 
