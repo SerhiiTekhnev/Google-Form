@@ -1,0 +1,150 @@
+body,h1,h2,ul,ol,p,input,label,a,img {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    background-color: #edebf2;
+}
+
+.container {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.section {
+    margin: 12px 0;
+    border: 1px solid #dcdde2;
+    background-color: white;
+    border-radius: 8px;
+    padding: 24px;
+    padding-top: 22px;
+}
+
+.top-img {
+    background-image: url(Images/Birthday.jpg);
+    background-size: cover;
+    height: 160px;
+    padding: 0;
+}
+
+.invite {
+    border-top: 10px solid rgb(72, 59, 126);
+}
+
+h1 {
+    font-family: 'Google Sans',Roboto, Arial, sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.section p, input, label {
+    padding: 8px 8px 8px 0;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .2px;
+    line-height: 20px;
+}
+
+.redtxt {
+    color: #d93025;
+}
+
+h2 {
+    font-family: 'Google Sans',Roboto,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: .1px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #202124;
+    margin-bottom: 16px;
+}
+
+input[type="text"],[type="email"] {
+    border: none;
+    outline: none;
+    width: 50%;
+    padding-bottom: 0;
+    height: 24px;
+}
+
+input[type="radio"], [type="checkbox"] {
+    margin-right: 5px;
+}
+
+.underline { 
+    background-color: rgba(0,0,0,0.12);
+    bottom: -2px;
+    height: 1px;
+    margin-bottom: 8px;
+    width: 50%;
+}
+
+label {
+    display: block;
+}
+
+p.letusknow {
+    margin:4px 0 16px;
+    padding:0;
+    font-size: 12px;
+}
+
+.other {
+    margin-left: 95px;
+    width: auto;  
+}
+
+button {
+    padding: 0 24px;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Google Sans',Roboto,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: .25px;
+    line-height: 36px;
+    background-color: #483b7e;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #584e81;
+}
+
+footer {
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: .3px;
+    line-height: 16px;
+    color: #70757a;
+    margin-top: 8px;
+}
+
+footer p:nth-child(2) {
+    text-align: center;
+    margin: 16px 0;
+    padding: 0 16px;
+}
+
+footer span a {
+    color: #70757a;
+}
+
+p.logo {
+    opacity: 0.26;
+    font-family: 'Product Sans',Arial,Helvetica,sans-serif;
+    font-size: 22.1px;
+    text-align: center;
+    margin: 24px 0;
+}
+
+.logo span a {
+    position: relative;
+    top: -6px;
+}
